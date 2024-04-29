@@ -1,12 +1,18 @@
+<script setup lang="ts">
+const { loggedIn, user, session, clear } = useUserSession()
+</script>
+
 <template>
-  <div>
-Home page
-  </div>
+  <UContainer class="p-10">
+    <UMain>
+      <AppHome v-if="loggedIn" />
+      <div v-else>
+        Please login to access the content
+      </div>
+    </UMain>
+  </UContainer>
 </template>
 
-<script setup lang="ts">
-
-</script>
 
 <style scoped>
 
