@@ -8,6 +8,13 @@
       "when": 1714314374310,
       "tag": "0000_open_impossible_man",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1714421043050,
+      "tag": "0001_hard_flatman",
+      "breakpoints": true
     }
   ]
 }
