@@ -15,7 +15,7 @@
     "@nuxthub/core": "^0.5.14",
     "drizzle-orm": "^0.30.9",
     "drizzle-zod": "^0.5.1",
-    "nuxt": "^3.11.2",
+    "nuxt": "^3.12.4",
     "nuxt-auth-utils": "^0.0.24",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
